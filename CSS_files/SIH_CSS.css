@@ -27,7 +27,7 @@ body {
 }
 
 #heading {
-    font-size: 8vw; 
+    font-size: 15vw; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -108,7 +108,7 @@ body {
         text-align: left;
     }
     #heading {
-        font-size: 5vw;
+        font-size: 5rem;
     }
     #heading_div p {
         font-size: 1.2rem;
