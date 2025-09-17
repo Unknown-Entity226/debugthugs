@@ -2,35 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CropGuide</title>
-    <link rel="stylesheet" href="CSS_files/SIH_CSS.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropGuide</title>
+  <link rel="stylesheet" href="CSS_files/heading_div.css">
+  <link rel="stylesheet" href="CSS_files/main.css">
+  <link rel="stylesheet" href="CSS_files/functions.css">
 </head>
 
 <body>
-    <div id="container">
-        <div id="heading_div">
-            <a href="index.html" id="page_reload">
-                <h1 id="heading">CropGuide</h1>
-            </a>
-            <p>A one stop solution for every farmer</p>
-        </div>
-
-        <section id="main_section">
-            <div id="main_section_container">
-                <p id="text">Get personalised crop suggestions, subsidies, and market insights tailored to your needs</p>
-                <div id="ask_user">
-                    <button id="loginBtn">Login</button>
-                    <button id="signupBtn">Signup</button>
-                </div>
-            </div>
-
-            <div id="form_container"></div>
-
-        </section>
+  <div id="container">
+    <div id="heading_div">
+      <a href="index.html" id="page_reload">
+        <h1 id="heading">CropGuide</h1>
+        <p>A one stop solution for every farmer</p>
+      </a>
+      <img src="images/emblem.png" alt="Government Emblem">
     </div>
-    <script src="JS_files/SIH_JS.js"></script>
-</body>
 
+    <div id="dynamic_functionality_div">
+      <div id="functions">
+        <button id="home_button">
+          <a href="index.html">Home</a>
+        </button>
+        <button id="guide_button">
+          Guide
+        </button>
+        <button id="about_us_button">
+          About Us
+        </button>
+        <button id="login_in_button">
+          Login
+        </button>
+        <button id="signup_button">
+          Sign Up
+        </button>
+      </div>
+
+      <div id="language_selector">
+        <select>
+          <option value="" disabled selected>Select Language</option>
+          <option value="as">Assamese</option>
+          <option value="bn">Bengali</option>
+          <option value="brx">Bodo</option>
+          <option value="doi">Dogri</option>
+          <option value="eng">English</option>
+          <option value="gu">Gujarati</option>
+          <option value="hi">Hindi</option>
+          <option value="kn">Kannada</option>
+          <option value="ks">Kashmiri</option>
+          <option value="gom">Konkani</option>
+          <option value="mai">Maithili</option>
+          <option value="ml">Malayalam</option>
+          <option value="mni">Manipuri</option>
+          <option value="mr">Marathi</option>
+          <option value="ne">Nepali</option>
+          <option value="or">Odia</option>
+          <option value="pa">Punjabi</option>
+          <option value="sa">Sanskrit</option>
+          <option value="sat">Santali</option>
+          <option value="sd">Sindhi</option>
+          <option value="ta">Tamil</option>
+          <option value="te">Telugu</option>
+          <option value="ur">Urdu</option>
+        </select>
+      </div>
+    </div>
+
+    <section id="main_section">
+      <img src="images/onion-3540502_1920.jpg" alt="Onion field" loading="lazy">
+    </section>
+  </div>
+
+  <script src="SIH_JS.js"></script>
+</body>
 </html>
