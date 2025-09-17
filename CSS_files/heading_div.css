@@ -1,0 +1,47 @@
+#heading_div {
+    background-color: rgb(25, 200, 25);
+    padding: 0.5rem 1rem;
+    width: 100%;
+    /* Use flexbox for layout */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: center; /* Center horizontally */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    overflow-x: hidden;
+}
+
+/* Style the link element wrapping the heading and subtitle */
+#page_reload {
+    text-decoration: none;
+    color: white;
+    text-align: center; /* Center text on mobile */
+    margin-bottom: 1rem;
+}
+
+#heading {
+    font-size: 15vw;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0;
+    /* padding-left: 0.5rem;
+    padding-right:0.5rem; */
+}
+
+#heading_div p {
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin: 0.2rem 0 0 0;
+}
+
+#heading_div img {
+    display: none;
+    width: 5vw;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
