@@ -1,0 +1,105 @@
+/* Login and Signup Page CSS */
+
+/* General container for both forms */
+.form_content_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    min-height: 70vh;
+    min-width: 350px;
+    max-width: 600px;
+}
+
+/* Container for the form's content (the white box) */
+.form_content_container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Styling for the form element itself */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Styling for all input fields and select dropdowns */
+.fields{
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form_heading_and_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Styling for the form heading */
+.form_heading {
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(23, 135, 23);
+    font-weight: bold;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    background-color: rgb(23, 135, 23);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* General back button styling */
+.back_button {
+    background: transparent; /* Keep background transparent */
+    border: none; /* Remove any border */
+    cursor: pointer;
+    padding: 0; /* Remove padding from the button itself */
+    line-height: 1; /* Helps with image alignment */
+}
+
+.back_button_image{
+    width: 1.8rem; /* Set explicit width */
+    height: 1.8rem; /* Set explicit height */
+    object-fit: contain; /* Ensure the whole image is visible, scale down if necessary */
+    display: block; /* Remove extra space below the image */
+}
+.switch_mode_text {
+    text-align: center;
+    font-size: 0.9rem;
+}
+button[type="submit"]:hover {
+    background-color: rgb(35, 170, 35); /* Slightly darker green on hover */
+}
+
+.back_button:hover {
+    opacity: 0.7; /* Slight fade on hover */
+}
+
+/* Styling for the links to switch forms */
+#switchToSignup,
+#switchToLogin {
+    color: rgb(23, 135, 23);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
