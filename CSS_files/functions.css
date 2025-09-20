@@ -6,7 +6,7 @@
     text-align: center;
     background-color: rgb(25, 142, 25);
     flex-direction: row; /* Stack buttons vertically on small screens */
-    gap: 10rem; /* Space between buttons */
+    /* gap: 10rem; */
     flex-wrap: wrap; /* Allows buttons to wrap if they don't fit */
 }
 #dynamic_functionality_div button {
