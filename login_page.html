@@ -1,17 +1,19 @@
-<link rel="stylesheet" href="CSS_files/login_page.css">
-<div id="login_content_div">
-    <div id="login_content_container">
-        <div class="form_heading_and_button">
-            <h2 id="login_heading">Login</h2>
-            <button class="back_button"><img src="https://png.pngtree.com/png-vector/20190120/ourlarge/pngtree-back-vector-icon-png-image_470452.jpg" alt="<- "></button>
+
+<main>
+    <div class="form_content_div">
+        <div class="form_content_container">
+            <div class="form_heading_and_button">
+                <h2 class="form_heading">Login</h2>
+                <button class="back_button"><img src="images/backbutton.png" class="back_button_image" alt="Back"></button>
+            </div>
+            <form>
+                <input class="fields" type="text" placeholder="Enter username" required>
+                <input class="fields" type="password" placeholder="Enter password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p class="switch_mode_text">
+                Don't have an account? <a href="#" id="switchToSignup">Sign Up</a>
+            </p>
         </div>
-        <form>
-            <input type="text" id="username" placeholder="Enter username" required>
-            <input type="password" id="password" placeholder="Enter password" required>
-            <button type="submit">Login</button>
-        </form>
-        <p class="switch-form-text">
-            Don't have an account? <a href="#" id="switchToSignup">Sign Up</a>
-        </p>
     </div>
-</div>
+</main>
